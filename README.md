@@ -1,12 +1,27 @@
-# React + Vite
+interactive-product-tour/
+├── public/               # Static assets (images, etc.)
+├── src/
+│   ├── Components/       # React components (e.g., HeroSection,Header,context,contextProvider)
+│   ├── App.jsx           # Main app entry
+│   └── main.jsx          # Vite/React entry point
+├── .gitignore            # Ignores node_modules, etc.
+├── package.json          # Project dependencies
+└── README.md             # Project documentation (see below)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Interactive Product Tour Builder
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simplified Arcade-like demo builder for user journey storytelling.  
 
-## Expanding the ESLint configuration
+## Features
+- **Landing Page**: Hero section + 3-step mock demo tour (animated transitions).  
+- **Editor**: Add steps (title, image, description) + live preview.  
+- **Tech Stack**: React, Vite, Tailwind CSS, Framer Motion (animations).  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demo
+[Live Preview on netlify](https://6835f41277edb89d66fdcaba--thunderous-cajeta-4b0309.netlify.app/)  
+
+## Setup
+1. Clone the repo:
+   ```bash
+   git clone  https://github.com/Aniket-code-web/product-tour-builder.git
